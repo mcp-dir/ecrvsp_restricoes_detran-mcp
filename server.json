@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/ecrvsp_restricoes_detran-mcp",
+  "title": "ECRVSP Restrições: Bloqueios Ativos DETRAN",
+  "description": "ECRVSP Restrições: Bloqueios Ativos DETRAN, official-source lookup. Platform-hosted, pay per query w",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/ecrvsp_restricoes_detran-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_ecrvsp_restricoes_detran"
+    }
+  ]
+}
